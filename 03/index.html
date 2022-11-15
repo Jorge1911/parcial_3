@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>raza de perros</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="changeDog()" >
+<body onload="cargarRazas()">
     <center>
-        <h1>dog api</h1>
-        <div  id="imageDog"></div>
+        <div class="card"> <h1>raza de perros</h1></div>
+       
+        <select name="" id="razas" onchange="changePerritos(this.value)">
+
+        </select>
+        <div id="perritos">
+
+        </div>
     </center>
     <script src="app.js"></script>
 </body>
